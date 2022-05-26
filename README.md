@@ -3,8 +3,8 @@
 El presente repositorio contiene los archivos utilizados para el desarrollo e implementación del Proyecto del Internet de las cosas que conecta una placa NODEMCU8266 con un broker, utilizando las tecnologías de Docker, K8s, K3S, K3D y Rancher. En el archivo 'Proyecto-IoT' se puede observar más información acerca del mismo, y en el archivo 'Proyecto-avances' se pueden observar los avances previamente implementados.
 
 ## Autores
-**Victor Manuel Velasco Hernández**
-**Jeanette Murillo Cortes**
+- **Victor Manuel Velasco Hernández**
+- **Jeanette Murillo Cortes**
 
 ## Despliegue del Proyecto
 
@@ -44,6 +44,8 @@ Pd. También existe la ESP8285 (Es la 12)
 
 De esta manera, una vez seleccionada la placa, procedemos a, dentro del código, poner nuestra red de internet a la cuál nos conectaremos, junto con su contraseña. Así, ya podemos compilar el programa para cargarlo a la placa, de esta forma, comenzará a buscar la señal del internet previamente configurado, y en la pantalla de salida del IDE, esperaremos hasta observar el mensaje de que 'Se ha conectado al internet'. 
 El siguiente paso es opcional, el cuál consiste en decidir si dejar la placa conectada a la computadora o conectar la placa a un PowerRank (cuando se conecta a este último, se demuestra que la placa puede seguir utilizando el programa aún cuando ya no esta conectado a nuestro equipo, utilizando su modulo ESP8266 que contiene el dispositivo WiFi.
+
+### Broker
 
 Después, el siguiente paso es dirigirnos al Broker EMQX de la siguiente manera:
 
