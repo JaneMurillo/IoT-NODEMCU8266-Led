@@ -2,9 +2,9 @@
 
 El presente repositorio contiene los archivos utilizados para el desarrollo e implementación del Proyecto del Internet de las cosas que conecta una placa NODEMCU8266 con un broker, utilizando las tecnologías de Docker, K8s, K3S, K3D y Rancher. En el archivo 'Proyecto-IoT' se puede observar más información acerca del mismo, y en el archivo 'Proyecto-avances' se pueden observar los avances previamente implementados.
 
-### Autores
-Victor Manuel Velasco Hernández
-Jeanette Murillo Cortes
+## Autores
+**Victor Manuel Velasco Hernández**
+**Jeanette Murillo Cortes**
 
 ## Despliegue del Proyecto
 
