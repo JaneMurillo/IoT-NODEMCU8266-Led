@@ -2,10 +2,13 @@
 
 El presente repositorio contiene los archivos utilizados para el desarrollo e implementación del Proyecto del Internet de las cosas que conecta una placa NODEMCU8266 con un broker, utilizando las tecnologías de Docker, K8s, K3S, K3D y Rancher. En el archivo 'Proyecto-IoT' se puede observar más información acerca del mismo, y en el archivo 'Proyecto-avances' se pueden observar los avances previamente implementados.
 
+### Autores
+Victor Manuel Velasco Hernández
+Jeanette Murillo Cortes
 
 ## Despliegue del Proyecto
 
-### Instalaciones para el despliegue
+### Requisitos previos
 
 Para el despliegue del proyecto se debe de tener como herramientas:
 * Una placa NODEMUC8266
@@ -19,7 +22,7 @@ Además de algunas otras las cuales se mencionan sus comandos de instalación en
 * Chocolatey
 * K3S, K3D, Rancher
 
-### Desarrollo del Despliegue
+### Procedimienot para el Despliegue
 
 Una vez que instaladas y obtenidas las anteriores herramientas, primeramente se tiene que abrir el IDE de Arduino para cargar el archivo 'NODEMCU2'. En este caso, arduino solicitará hacer la creación de una carpeta, a lo cuál le daremos permiso. Una vez con el código dentro de Arduino, se debe de instalar la libreria que permite el uso de la placa NODEMCU8366, para lo cuál, se sugieren los siguientes pasos:
 
@@ -66,4 +69,5 @@ https://www.emqx.com/en/mqtt/public-mqtt5-broker o buscar la opción 'Publick mq
 
 De esta manera, si el mensaje ha sido enviado correctamente, el led de la placa NODEMCU8266 prenderá o se apagará, según reciba el mensaje.
 
+Para más detalles del código y funcionamiento del proyecto, se deja a continuación el siguiente link: https://drive.google.com/file/d/1v7-_CIrggtQCW6O1r4HuX6lM3AB7Bfwz/view?usp=sharing
 
