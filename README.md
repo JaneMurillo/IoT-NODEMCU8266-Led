@@ -19,8 +19,8 @@ En la siguiente imagen se muestra la arquitectura propuesta para que el sistema 
 ## Despliegue del Proyecto ⚙
 El despliegue del proyecto se divide en dos:
 
-*Placa NodeMCU8266
-*Broker EMQX
+* Placa NodeMCU8266
+* Broker EMQX
 
 ### Instalaciones para el despliegue 🧩
 
